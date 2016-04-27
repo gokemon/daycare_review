@@ -1,25 +1,33 @@
 class ProvidersController < ApplicationController
   before_action :set_provider, only: [:show, :edit, :update, :destroy]
 
+
   # GET /providers
   # GET /providers.json
   def index
-    @providers = Provider.all
+    # @providers = Provider.all
+    # @todos = Todo.all
+    # @todos = Todo.order(created_at: :desc)
+    @providers = Provider.order(City)
   end
+
 
   # GET /providers/1
   # GET /providers/1.json
   def show
   end
 
+
   # GET /providers/new
   def new
     @provider = Provider.new
   end
 
+
   # GET /providers/1/edit
   def edit
   end
+
 
   # POST /providers
   # POST /providers.json
@@ -28,7 +36,7 @@ class ProvidersController < ApplicationController
 
     respond_to do |format|
       if @provider.save
-        format.html { redirect_to @provider, notice: 'Provider was successfully created.' }
+        format.html { redirect_to providers_path, notice: 'Provider was successfully created.' }
         format.json { render :show, status: :created, location: @provider }
       else
         format.html { render :new }
@@ -37,12 +45,15 @@ class ProvidersController < ApplicationController
     end
   end
 
+# redirect_to @todo and redirect_to todos_url with 
+# redirect_to providers_path
+
   # PATCH/PUT /providers/1
   # PATCH/PUT /providers/1.json
   def update
     respond_to do |format|
       if @provider.update(provider_params)
-        format.html { redirect_to @provider, notice: 'Provider was successfully updated.' }
+        format.html { redirect_to providers_path, notice: 'Provider was successfully updated.' }
         format.json { render :show, status: :ok, location: @provider }
       else
         format.html { render :edit }
@@ -51,15 +62,17 @@ class ProvidersController < ApplicationController
     end
   end
 
+
   # DELETE /providers/1
   # DELETE /providers/1.json
   def destroy
     @provider.destroy
     respond_to do |format|
-      format.html { redirect_to providers_url, notice: 'Provider was successfully destroyed.' }
+      format.html { redirect_to providers_path, notice: 'Provider was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
