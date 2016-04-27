@@ -1,9 +1,9 @@
 <div class="page-header">
   <%= link_to new_user_path, class: 'btn btn-primary' do %>
     <span class="glyphicon glyphicon-plus"></span>
-    New User
+    Join Today
   <% end %>
-  <h1>Listing users</h1>
+  <h1>Listing Current Members</h1>
 </div>
 
 <div class="table-responsive">
@@ -15,9 +15,9 @@
             <th>Email</th>
             <th>Password digest</th>
             <th>Remember token</th>
-            <th></th>
-        <th></th>
-        <th></th>
+            <th>S</th>
+            <th>E</th>
+            <th>D</th>
       </tr>
     </thead>
 
@@ -29,8 +29,8 @@
             <td><%= user.password_digest %></td>
             <td><%= user.remember_token %></td>
             <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <td><%= link_to 'Edit', edit_user_path(user) %></td>
+            <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       <% end %>
     </tbody>
   </table>

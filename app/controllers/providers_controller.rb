@@ -9,6 +9,7 @@ class ProvidersController < ApplicationController
     # @todos = Todo.all
     # @todos = Todo.order(created_at: :desc)
     # @providers = Provider.order(City)
+    
   end
 
 
