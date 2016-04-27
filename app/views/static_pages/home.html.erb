@@ -2,8 +2,36 @@
 <% provide(:title, 'Home') %>
 
 <div class="text-center jumbotron">
-  <h1>Welcome to WeCare, a Daycare Review Site</h1>
+  <h1>Welcome to WeCare, <br> a Daycare Review Site</h1>
   <h3>This is the home page for the Daycare Review Site.</h3>
-  <br/>
-</div>
+  <p>Let's use this space for a form to select the provider city</p>
 
+	<%= form_tag("/providers", method: "get") do %>
+	<!-- 	<select autofocus> -->
+		<%= select_tag() %>
+			<%= options_for_select([['Auburn', 'Auburn'], ['Buford', 'Buford'], ...]) %>
+
+		  <option value="Auburn">Auburn</option>
+		  <option value="Buford">Buford</option>
+		  <option value="Dacula">Dacula</option>
+		  <option value="Duluth">Duluth</option>
+		  <option value="Grayson">Grayson</option>
+		  <option value="Hoschton">Hoschton</option>
+		  <option value="Lawrenceville">Lawrenceville</option>
+		  <option value="Lilburn">Lilburn</option>
+		  <option value="Loganville">Loganville</option>
+		  <option value="Norcross">Norcross</option>
+		  <option value="Peachtree Corners">Peachtree Corners</option>
+		  <option value="Snellville">Snellville</option>
+		  <option value="Stone Mountain">Stone Mountain</option>
+		  <option value="Sugar Hill">Sugar Hill</option>
+		  <option value="Suwanee">Suwanee</option>
+		  <option value="Tucker">Tucker</option>
+		</select>
+			<!-- <input type="submit" value="Find Providers"> -->
+
+		<%= submit_tag("Find Providers") %>
+	<% end %>
+
+	<p>	<%= link_to 'Find Providers', providers_path %></p>
+</div>

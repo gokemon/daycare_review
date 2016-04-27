@@ -5,10 +5,10 @@ class ProvidersController < ApplicationController
   # GET /providers
   # GET /providers.json
   def index
-    # @providers = Provider.all
+    @providers = Provider.all
     # @todos = Todo.all
     # @todos = Todo.order(created_at: :desc)
-    @providers = Provider.order(City)
+    # @providers = Provider.order(City)
   end
 
 
