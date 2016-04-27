@@ -1,0 +1,89 @@
+<div class="page-header">
+  <%= link_to providers_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Back
+  <% end %>
+  <%= link_to edit_provider_path(@provider), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Edit
+  <% end %>
+  <h1>Show provider</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Provider number:</dt>
+  <dd><%= @provider.Provider_Number %></dd>
+
+  <dt>Location name:</dt>
+  <dd><%= @provider.Location_Name %></dd>
+
+  <dt>Address:</dt>
+  <dd><%= @provider.Address %></dd>
+
+  <dt>City:</dt>
+  <dd><%= @provider.City %></dd>
+
+  <dt>State:</dt>
+  <dd><%= @provider.State %></dd>
+
+  <dt>Zip:</dt>
+  <dd><%= @provider.Zip %></dd>
+
+  <dt>Admin first name:</dt>
+  <dd><%= @provider.Admin_First_Name %></dd>
+
+  <dt>Admin last name:</dt>
+  <dd><%= @provider.Admin_Last_Name %></dd>
+
+  <dt>Phone:</dt>
+  <dd><%= @provider.Phone %></dd>
+
+  <dt>Licensedcapacity:</dt>
+  <dd><%= @provider.LicensedCapacity %></dd>
+
+  <dt>Operation months:</dt>
+  <dd><%= @provider.Operation_Months %></dd>
+
+  <dt>Operation days:</dt>
+  <dd><%= @provider.Operation_Days %></dd>
+
+  <dt>Hours open:</dt>
+  <dd><%= @provider.Hours_Open %></dd>
+
+  <dt>Hours close:</dt>
+  <dd><%= @provider.Hours_Close %></dd>
+
+  <dt>Infant 0 to 12mos:</dt>
+  <dd><%= @provider.Infant_0_To_12mos %></dd>
+
+  <dt>Toddler 13mos to 2yrs:</dt>
+  <dd><%= @provider.Toddler_13mos_To_2yrs %></dd>
+
+  <dt>Preschool 3yrs to 4yrs:</dt>
+  <dd><%= @provider.Preschool_3yrs_To_4yrs %></dd>
+
+  <dt>Pre k served:</dt>
+  <dd><%= @provider.Pre_K_Served %></dd>
+
+  <dt>School age 5yrs plus:</dt>
+  <dd><%= @provider.School_Age_5yrs_Plus %></dd>
+
+  <dt>Ages other than pre k served:</dt>
+  <dd><%= @provider.Ages_Other_Than_Pre_K_Served %></dd>
+
+  <dt>Has evening care:</dt>
+  <dd><%= @provider.Has_Evening_Care %></dd>
+
+  <dt>Has drop in care:</dt>
+  <dd><%= @provider.Has_Drop_In_Care %></dd>
+
+  <dt>Has school age summer care:</dt>
+  <dd><%= @provider.Has_School_Age_Summer_Care %></dd>
+
+  <dt>Has special needs care:</dt>
+  <dd><%= @provider.Has_Special_Needs_Care %></dd>
+
+  <dt>Has transport tofrom school:</dt>
+  <dd><%= @provider.Has_Transport_ToFrom_School %></dd>
+
+</dl>
