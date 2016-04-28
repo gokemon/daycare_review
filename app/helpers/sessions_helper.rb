@@ -1,5 +1,6 @@
 module SessionsHelper
 
+
   def sign_in(user)
     # save a cookie on their computer
     remember_token = User.new_remember_token
@@ -23,12 +24,12 @@ module SessionsHelper
   end
 
 
-
+# I TOOK THE remember_token OUT FOR THE MINUTE WHILE TESTING USER
   def current_user
     remember_token  = User.digest(cookies[:remember_token])
     @current_user ||= User.find_by(remember_token: remember_token)
   end
-
+# BECAUSE THE PASSWORD THING IS NOT WORKING
 
   # check if the specified user is the current user
   def current_user?(user)
@@ -46,8 +47,7 @@ module SessionsHelper
 
 
   def sign_out
-    current_user.update_attribute(:remember_token,
-                                  User.digest(User.new_remember_token))
+    current_user.update_attribute(:remember_token, User.digest(User.new_remember_token))
     cookies.delete(:remember_token)
     self.current_user = nil
   end

@@ -1,2 +1,2 @@
 include Sprig::Helpers
-sprig [Provider]
+sprig [User, Provider]

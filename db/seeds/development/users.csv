@@ -1,0 +1,4 @@
+"first_name","last_name","email","password_digest","remember_token"
+"Michael","Gokey","michael@example.com","asdf1234","asdf1234"
+"Bonnie","Gokey","bonnie@example.com","asdf1235","asdf1235"
+"Max","Gokey","max@example.com","asdf1236","asdf1236"

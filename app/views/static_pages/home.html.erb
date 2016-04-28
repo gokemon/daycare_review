@@ -2,23 +2,19 @@
 <% provide(:title, 'Home') %>
 
 <div class="text-center jumbotron">
-  <h1>Welcome to WeCare, <br> a Daycare Review Site</h1>
-  <h3>This is the home page for the Daycare Review Site.</h3>
+  <h1>Welcome to WeCare</h1>
+  <h2>A Daycare Review Site</h2>
+  <h4>This is the home page for the Daycare Review Site.</h4>
   <p>Let's use this space for a form to select the provider city</p>
 	
 	<div class="form-group">
-
 		<%= form_for(Provider.new,  url: providers_path, method: "get") do |f| %>
-
-			<%= f.select :City, @cities %>
-
-			<div class="col-sm-offset-2 col-sm-10">
-		      <%= f.submit class: "btn btn-primary" %>
-		    </div> 
-
+			<%= f.select :City, @cities %>	
+		      <%= f.submit "Search", class: "btn btn-primary btn-sm" %>
 		<% end %>
 	</div>	
-	  <br/>
-	  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+
+	  <br/><br/><br/>
+	  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>&nbsp;&nbsp;
 	  <%= link_to "Sign in",      signin_path, class: "btn btn-large btn-primary" %>
 </div>

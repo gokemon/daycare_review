@@ -8,9 +8,11 @@ class User < ActiveRecord::Base
   validates :first_name, :last_name, presence: true
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(?:\.[a-z\d\-]+)*\.[a-z]+\z/i
-  validates :email, presence: true, length: { maximum: 80 },
-                    format: { with: VALID_EMAIL_REGEX },
-                    uniqueness: { case_sensitive: false }
+  validates :email, 
+            presence: true, 
+            length: { maximum: 80 },
+            format: { with: VALID_EMAIL_REGEX },
+            uniqueness: { case_sensitive: false }
 
   # Add methods to set and authenticate against a BCrypt password.
   has_secure_password
@@ -36,4 +38,5 @@ class User < ActiveRecord::Base
   def to_s
     email
   end
+
 end
