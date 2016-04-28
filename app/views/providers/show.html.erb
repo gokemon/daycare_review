@@ -33,11 +33,9 @@
   <dt>Zip:</dt>
   <dd><%= @provider.Zip %></dd>
 
-  <dt>Admin first name:</dt>
-  <dd><%= @provider.Admin_First_Name %></dd>
+  <dt>Contact name:</dt>
+  <dd><%= @provider.Admin_First_Name %>&nbsp;<%= @provider.Admin_Last_Name %></dd>
 
-  <dt>Admin last name:</dt>
-  <dd><%= @provider.Admin_Last_Name %></dd>
 
   <dt>Phone:</dt>
   <dd><%= @provider.Phone %></dd>
@@ -56,6 +54,8 @@
 
   <dt>Hours close:</dt>
   <dd><%= @provider.Hours_Close %></dd>
+
+
 
   <dt>Infant 0 to 12mos:</dt>
   <dd><%= @provider.Infant_0_To_12mos %></dd>
@@ -85,9 +85,19 @@
   <dd><%= @provider.Has_School_Age_Summer_Care %></dd>
 
   <dt>Has special needs care:</dt>
-  <dd><%= @provider.Has_Special_Needs_Care %></dd>
+  <dd><%= @provider.Has_Special_Needs_Care %>
+          <% if @provider.Has_Special_Needs_Care = true %>
+            <span class="glyphicon glyphicon-ok"></span>
+          <% else %>
+            <span class="glyphicon glyphicon-unchecked"></span>
+          <% end %>
+  </dd>
 
-  <dt>Has transport tofrom school:</dt>
-  <dd><%= @provider.Has_Transport_ToFrom_School %></dd>
 
 </dl>
+
+
+
+
+
+

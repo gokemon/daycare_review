@@ -5,11 +5,18 @@ class ProvidersController < ApplicationController
   # GET /providers
   # GET /providers.json
   def index
-    @providers = Provider.all
-    # @todos = Todo.all
-    # @todos = Todo.order(created_at: :desc)
-    # @providers = Provider.order(City)
+    # READ THE url QUERY STRING AND EXTRACT THE city AND DO THE SELECT ON THIS list
+    # OTHERWISE SHOW ALL
+
     
+    @my_city = params[:provider] ? params[:provider][:City] : nil
+
+    if (@my_city.nil? == false)
+      @providers = Provider.where(City: @my_city)
+    else  
+      @providers = Provider.all
+    end
+  
   end
 
 
@@ -18,17 +25,14 @@ class ProvidersController < ApplicationController
   def show
   end
 
-
   # GET /providers/new
   def new
     @provider = Provider.new
   end
 
-
   # GET /providers/1/edit
   def edit
   end
-
 
   # POST /providers
   # POST /providers.json

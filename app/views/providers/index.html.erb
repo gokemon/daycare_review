@@ -1,79 +1,34 @@
-<div class="page-header">
-<!--   <%= link_to new_provider_path, class: 'btn btn-primary' do %>
-    <span class="glyphicon glyphicon-plus"></span>
-    New Provider
-  <% end %> -->
 
+
+<div class="page-header">
   <h1>Listing Daycare Providers</h1>
 </div>
+
 
 <div class="table-responsive">
   <table class="table table-striped table-bordered table-hover">
     <thead>
       <tr>
-<!--             <th>Provider number</th> -->
-            <th>Location name</th>
-            <th>Address</th>
-            <th>City</th>
-            <th>State</th>
-            <th>Zip</th>
-<!--             <th>Admin first name</th>
-            <th>Admin last name</th> -->
-            <th>Phone</th>
-<!--             <th>Licensedcapacity</th>
-            <th>Operation months</th>
-            <th>Operation days</th>
-            <th>Hours open</th>
-            <th>Hours close</th>
-            <th>Infant 0 to 12mos</th>
-            <th>Toddler 13mos to 2yrs</th>
-            <th>Preschool 3yrs to 4yrs</th>
-            <th>Pre k served</th>
-            <th>School age 5yrs plus</th>
-            <th>Ages other than pre k served</th>
-            <th>Has evening care</th>
-            <th>Has drop in care</th>
-            <th>Has school age summer care</th>
-            <th>Has special needs care</th>
-            <th>Has transport tofrom school</th> -->
-<!--         <th>Show</th> -->
-<!--         <th>Edit</th>
-        <th>Destroy</th> -->
+        <th>Location name</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip</th>
+        <th>Phone</th>
       </tr>
     </thead>
 
     <tbody>
       <%= content_tag_for(:tr, @providers) do |provider| %>
-<!--             <td><%= provider.Provider_Number %></td> -->
-<!--             <td><%= provider.Location_Name %></td> -->
-            <td><%= link_to provider.Location_Name, provider %></td>
-            <td><%= provider.Address %></td>
-            <td><%= provider.City %></td>
-            <td><%= provider.State %></td>
-            <td><%= provider.Zip %></td>
-<!--             <td><%= provider.Admin_First_Name %></td>
-            <td><%= provider.Admin_Last_Name %></td> -->
-            <td><%= provider.Phone %></td>
-<!--             <td><%= provider.LicensedCapacity %></td>
-            <td><%= provider.Operation_Months %></td>
-            <td><%= provider.Operation_Days %></td>
-            <td><%= provider.Hours_Open %></td>
-            <td><%= provider.Hours_Close %></td>
-            <td><%= provider.Infant_0_To_12mos %></td>
-            <td><%= provider.Toddler_13mos_To_2yrs %></td>
-            <td><%= provider.Preschool_3yrs_To_4yrs %></td>
-            <td><%= provider.Pre_K_Served %></td>
-            <td><%= provider.School_Age_5yrs_Plus %></td>
-            <td><%= provider.Ages_Other_Than_Pre_K_Served %></td>
-            <td><%= provider.Has_Evening_Care %></td>
-            <td><%= provider.Has_Drop_In_Care %></td>
-            <td><%= provider.Has_School_Age_Summer_Care %></td>
-            <td><%= provider.Has_Special_Needs_Care %></td>
-            <td><%= provider.Has_Transport_ToFrom_School %></td> 
-                 <td><%= link_to 'Show', provider %></td> 
-                <td><%= link_to 'Edit', edit_provider_path(provider) %></td>
-                <td><%= link_to 'Destroy', provider, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
+        <td><%= link_to provider.Location_Name, provider %></td>
+        <td><%= provider.Address %></td>
+        <td><%= provider.City %></td>
+        <td><%= provider.State %></td>
+        <td><%= provider.Zip %></td>
+        <td><%= provider.Phone %></td>
       <% end %>
     </tbody>
   </table>
 </div>
+
+<%= @my_city %>
