@@ -1,0 +1,14 @@
+Wed, 27 Apr 2016 20:14:10 -0400
+README.rdoc	Tue, 26 Apr 2016 14:05:34 -0400
+app/controllers/application_controller.rb	Wed, 27 Apr 2016 18:56:13 -0400
+app/controllers/providers_controller.rb	Wed, 27 Apr 2016 18:26:22 -0400
+app/controllers/sessions_controller.rb	Wed, 27 Apr 2016 18:53:12 -0400
+app/controllers/static_pages_controller.rb	Wed, 27 Apr 2016 18:59:31 -0400
+app/controllers/users_controller.rb	Wed, 27 Apr 2016 16:34:34 -0400
+app/helpers/application_helper.rb	Tue, 26 Apr 2016 14:53:20 -0400
+app/helpers/providers_helper.rb	Tue, 26 Apr 2016 15:55:01 -0400
+app/helpers/sessions_helper.rb	Wed, 27 Apr 2016 18:43:45 -0400
+app/helpers/static_pages_helper.rb	Tue, 26 Apr 2016 14:31:28 -0400
+app/helpers/users_helper.rb	Wed, 27 Apr 2016 15:39:39 -0400
+app/models/provider.rb	Wed, 27 Apr 2016 13:42:09 -0400
+app/models/user.rb	Wed, 27 Apr 2016 16:27:37 -0400
