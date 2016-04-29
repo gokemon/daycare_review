@@ -2,6 +2,9 @@ class User < ActiveRecord::Base
 
 	# This is where my relationship should go
   # has_many :comments, dependent: :destroy
+  has_many :comments
+  has_many :providers, through: :comments
+
 
   before_save { email.downcase! }
 

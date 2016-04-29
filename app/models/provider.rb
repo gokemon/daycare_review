@@ -3,6 +3,9 @@ class Provider < ActiveRecord::Base
   	validates :Provider_Number, presence: true
 	validates :Location_Name, presence: true
 
+	has_many :comments
+	has_many :users, through: :comments
+
   
   # before_save :default_values
 
