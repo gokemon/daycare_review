@@ -1,19 +1,23 @@
-Provider_Number	 PK
-Location_Name	
-Address	
-City	
-State	
-Zip	
+Back to 
+[https://github.com/gokemon/daycare_review](https://github.com/gokemon/daycare_review "Back to ReadMe")
 
-Admin_First_Name	
-Admin_Last_Name	
-Phone
+## Sample Provide schema ideas##
+- Provider_Number	 *PK*
+- Location_Name	
+- Address	
+- City	
+- State	
+- Zip	
 
-LicensedCapacity	
-Operation_Months	
-Operation_Days	
-Hours_Open	
-Hours_Close	
+- Admin_First_Name	
+- Admin_Last_Name	
+- Phone
+
+- LicensedCapacity	
+- Operation_Months	
+- Operation_Days	
+- Hours_Open	
+- Hours_Close	
 
 These are True/False
 ===================

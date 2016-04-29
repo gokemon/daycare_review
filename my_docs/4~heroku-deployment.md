@@ -1,3 +1,6 @@
+Back to 
+[https://github.com/gokemon/daycare_review](https://github.com/gokemon/daycare_review "Back to ReadMe")
+
 
 # Deploying to Heroku
 
@@ -18,21 +21,7 @@
 
 When we have finished developing a version of our app, we might want to put it on the internet for other people to see.
 
-#### Localhost
 
-Most of what we've developed so far has just run on our own computers. Both our database and our web server have been on our computer. We've done this because it's much easier to develop locally because we don't actually need an internet connection.  However, people can't access it easily unless they are also on our local network.
-
-So what are your options?
-
-**1. Buy another Computer**
-
-  We could just buy another computer somewhere else and use it to run our applications - or even more than one, if needed, and by the way, a server is a computer. We could connect this other computer to the internet and with a bit of configuration, we could allow people to connect to it using a URL.
-
-  However, we'd have to buy and look after this computer, have somewhere to store it and ensure that it was working and always connected to the internet. Also, if someone hit an error when they used our app, we might have to stop and start it? Maybe there is a better way?
-
-**2. Virtual machines**
-
-  What if we could write a program that pretends to be a computer? If we could do this, then we could run another operating system within it? This is called a virtual machine.
 
 **3. Cloud hosting platform**
 
@@ -52,7 +41,7 @@ First you need to link your machine to your Heroku account - a similar process t
 
 #### Add SSH-key to Heroku
 
-Very similar to when we setup GitHub, we need to add our ssh-keys to Heroku so that Heroku can know we're authenticated users.
+!1 time deal Very similar to when we setup GitHub, we need to add our ssh-keys to Heroku so that Heroku can know we're authenticated users.
 
 So let's add our ssh-key to Heroku. First, we need to copy our ssh-key:
 
@@ -214,7 +203,7 @@ Then ,you'll get prompted to type the app name, this is to prevent mistake when 
 
 Ideally, you should serve all of your assets using S3.  Heroku explains:
 
-"AWS Simple Storage Service, e.g. S3, is a 'highly durable and available store' and can be used to reliably store application content such as media files, static assets and user uploads. It allows you to offload your entire storage infrastructure and offers better scalability, reliability, and speed than just storing files on the filesystem.  AWS S3, or similar storage services, are important when architecting applications for scale and are a perfect complement to Heroku’s ephemeral filesystem."
+"AWS Simple Storage Service, e.g. S3, is a 'highly durable and available store' and can be used to reliably store application content such as media files, static assets and user uploads. It allows you to offload your entire storage infrastructure and offers better scalability, reliability, and speed than just storing files on the filesystem.  AWS S3, or similar storage services, are important when architecting applications for scale and are a perfect complement to Herokuâ€™s ephemeral filesystem."
 
 Don't worry about this just yet but know that pictures and media files take up a lot of space and we can't store them in our database - that's where s3 comes in.
 

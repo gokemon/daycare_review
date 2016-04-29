@@ -1,3 +1,5 @@
+Back to 
+[https://github.com/gokemon/daycare_review](https://github.com/gokemon/daycare_review "Back to ReadMe")
 
 ## Project 2: Building Your First Full-stack Application
 
@@ -5,12 +7,12 @@ This second project is your first foray into **building a full-stack application
 
 **This is exciting!** It's a lot, but we'll give you the tools over the next few weeks to be able build what you need, and you get to decide what you do with it. And you get to be creative in choosing what sort of application you want to build!
 
-**You will be working individually for this project**, and you'll be designing the app yourself. We hope you'll exercise creativity on this project, sketch some wireframes before you start, and write user stories to define what your users will want to do with the app. Make sure you have time to run these ideas by your instructors to get their feedback before you dive too deep into code! Remember to keep things small and focus on mastering the fundamentals – scope creep/feature creep is the biggest pitfall for any project!
+**You will be working individually for this project**, and you'll be designing the app yourself. We hope you'll exercise creativity on this project, sketch some wireframes before you start, and write user stories to define what your users will want to do with the app. Make sure you have time to run these ideas by your instructors to get their feedback before you dive too deep into code! Remember to keep things small and focus on mastering the fundamentals â€“ scope creep/feature creep is the biggest pitfall for any project!
 
 ## Technical Requirements
 Your app must:
 
-- **Have at least 2 models** (more if they make sense) – one representing someone using your application, and one that represents the main functional idea for your app
+- **Have at least 2 models** (more if they make sense) â€“ one representing someone using your application, and one that represents the main functional idea for your app
 - **Include sign up/log in functionality**, with encrypted passwords & an authorization flow
 - **Have complete RESTful routes** for at least one of your resources with GET, POST, PUT, PATCH, and DELETE
 - **Utilize an ORM to create a database table structure** and interact with your relationally-stored data
@@ -28,9 +30,9 @@ Your app must:
 
 ## Suggested Ways to Get Started
 - **Begin with the end in mind.** Know where you want to go by planning with wireframes & user stories, so you don't waste time building things you don't need
-- **Don’t hesitate to write throwaway code to solve short term problems**
+- **Donâ€™t hesitate to write throwaway code to solve short term problems**
 - **Read the docs for whatever technologies you use.** Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success as a developer
-- **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
+- **Commit early, commit often.** Donâ€™t be afraid to break something because you can always go back in time to a previous version.
 - **User stories define what a specific type of user wants to accomplish with your application.** It's tempting to just make them todo lists for what needs to get done, but if you keep them small & focused on what a user cares about from their perspective, it'll help you know what ot build
 - **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
 
@@ -73,7 +75,7 @@ These are for extra credit! Don't forget -- you'll need to have your base app co
 * Code reviews: Week 7
 
 ## Project Feedback + Evaluation
-- **Project Workflow**: Did you complete the user stories, wireframes, task tracking, and/or ERDs, as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
+- **Project Workflow**: Did you complete the user stories, wireframes, task tracking, and/or ERDs, as specified above? Did you use source control as expected for the phase of the program youâ€™re in (detailed above)?
 
 - **Technical Requirements**: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
 
