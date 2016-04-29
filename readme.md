@@ -85,12 +85,16 @@ I did not create any tests, but an including a link to the full spec docs on thi
 
 ### Design Ideas
 
-https://github.com/gokemon/daycare_review/blob/master/my_docs/Providers-schema.md
+![](https://github.com/gokemon/daycare_review/blob/master/my_docs/visual_assets/er.png)
 
-https://github.com/gokemon/daycare_review/blob/master/my_docs/model_Facility.md
+[https://github.com/gokemon/daycare_review/blob/master/my_docs/Providers-schema.md](https://github.com/gokemon/daycare_review/blob/master/my_docs/Providers-schema.md)
+
+[https://github.com/gokemon/daycare_review/blob/master/my_docs/model_Facility.md](https://github.com/gokemon/daycare_review/blob/master/my_docs/model_Facility.md)
 
 How it actually is made;
-https://github.com/gokemon/daycare_review/blob/master/doc/app/index.html
+
+[https://github.com/gokemon/daycare_review/blob/master/doc/app/index.html](https://github.com/gokemon/daycare_review/blob/master/doc/app/index.html)
+
 This would work if viewed from GH pages.
 
 
@@ -120,7 +124,7 @@ I built out my dev and projection environments, and created seed system with spr
 
 Other gems used:
 
-- gem 'rails_12factor' 
+- gem 'rails_12factor' for STDOUT in heroku
 - gem 'better_errors'
 - gem 'pry-rails' for Rails console
 - gem 'tzinfo-data' for dev env
@@ -130,14 +134,14 @@ Other gems used:
 - gem 'web-console'
 
 ## Future Plans ##
-Link to Goals
-
+[Link to Goals
+](https://github.com/gokemon/daycare_review/blob/master/my_docs/goals.md#things-to-do)
 
 ## Authors
 
 * **Michael Gokey** - *Initial work* 
 * - [PurpleRail](prince died)
-* U2 for musical inspiration
+* **U2** for musical inspiration
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
