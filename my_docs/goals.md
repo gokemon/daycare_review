@@ -22,3 +22,12 @@ but this is part of the polishing process.
 I am MORE than happy to have this thing work without crashing. 
 *I consider this a success.*
 
+## Future Plans ##
+
+When a User makes a comment on a Daycare, the system emails the Providers admin, inviting them to join. 
+They can join for a fee, which allows them to create an enhanced profile with extra details, photos they upload, a reply comment to comments made about their site, and **featured** at the top of the list, when searches are done, in their area.
+Anytime a comment is made to a provider, the provider gets notified. If not a member, then invite provider admin to join, if already a member, then thank them.
+
+To be able to have the search start with zip-code and search with-in a distance, like 5-10-15 miles.
+
+

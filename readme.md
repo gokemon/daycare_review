@@ -7,11 +7,11 @@ My Trello is over at
 [https://trello.com/b/fY3nYbMr/review-daycares](https://trello.com/b/fY3nYbMr/review-daycares "Trello board for my simple project")
 
 
-# Project Title
-
 A very simple kick the tires Ruby app site, that was inspired by a daycare review site. 
 
 ![Sample Home page](https://github.com/gokemon/daycare_review/blob/master/my_docs/visual_assets/home.png)
+
+It has a few moving parts and lot more iterations to make it full-fledged working web-site application.
 
 ## Getting Started
 
