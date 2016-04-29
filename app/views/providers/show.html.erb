@@ -95,6 +95,37 @@
 
 
 </dl>
+<p>I want to put the True/False values into a small 3x4 table grid. Along with displaying any Comments below this</p>
+<hr>
+<h3>Comments</h3>
+<p>These Comments are just peoples thoughts and feelings at they time they posted them. Please your good judgement about if the comment is of any real value to you.</p>
+
+<p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p>
+<p>Just like in the Tunr app, where when the Artist shows up as a single page, their songs show up below them.
+  Lorem ipsum dolor sit amet,
+  consectetur adipiscing elit. Cras fringilla lacus at odio consequat dapibus. Vestibulum non sut ligula semper. Morbi ornare imperdiet laoreet. Suspendisse ac diam purus. Morbi eu tortor at augue pretium faucibus non in dolor. Praesent lobortis posuere ligula vitae maximus. Nullam viverra mi et metus lobortis aliquam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam ullamcorper fermentum placerat.
+  <br>
+<span>Created: date, by User.name</span>
+</p>
+
+<hr>
+
+<p><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p>
+<p>Just like in the Tunr app, where when the Artist shows up as a single page, their songs show up below them.
+  Lorem ipsum dolor sit amet,
+  consectetur adipiscing elit. Cras fringilla lacus at odio consequat dapibus. Vestibulum non sut ligula semper. Morbi ornare imperdiet laoreet. Suspendisse ac diam purus. Morbi eu tortor at augue pretium faucibus non in dolor. Praesent lobortis posuere ligula vitae maximus. Nullam viverra mi et metus lobortis aliquam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam ullamcorper fermentum placerat.
+  <br>
+<span>Created: date, by User.name</span>
+</p>
+
+
+<!-- /comments/:id(.:format) -->
+
+<% if signed_in? %>  
+  <li><%= link_to 'Make new Notes', new_comment_path  %></li>
+<% else %>
+  <li>display comments</li>
+<% end %>
 
 
 

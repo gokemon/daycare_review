@@ -14,6 +14,9 @@ Rails.application.routes.draw do
 	match '/signout', 	to: 'sessions#destroy',     via: 'delete'
 
 
+	
+
+
 	# get 'static_pages/home'
 	# get 'static_pages/about'
 	# get 'sessions/new'

@@ -1,13 +1,14 @@
 
-
+<!-- TAKE THE new_comment_path OUT, ONCE YOU GET THE DAYCARE DISPLAY PART WORKS -->
 <% if signed_in? %>  
   <li><%= link_to @current_user, user_path(@current_user) %></li>
   <li><%= link_to 'Sign out', signout_path, method: 'delete' %></li>
+  <li><%= link_to 'Make new Notes', new_comment_path  %></li>
 <% else %>
   <li><%= link_to 'Sign up', signup_path %></li>
   <li><%= link_to 'Sign in', signin_path %></li>
 <% end %>
-
+<!-- TAKE THE new_comment_path OUT, ONCE YOU GET THE DAYCARE DISPLAY PART WORKS -->
 
 <li><%= link_to 'See Notes', comments_path %></li>
 <li><%= link_to 'Find a Daycare', providers_path %></li>
