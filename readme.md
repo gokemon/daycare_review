@@ -43,6 +43,22 @@ My app has:
 - **Wireframes of your app**, hosted somewhere & linked in your readme  **DONE**
 - A link in your readme.md to the publically-accessible **user stories you created** 
 
+## User Stories
+
+*System*
+
+- Displays main page with features
+
+*Users* should be able to...
+
+- View all providers
+- View a selected providers detail page with its associated comments
+- Sign up
+- Sign in
+- Add a new comment to a selected providers detail page
+- Edit an existing comment they created
+- Delete an existing comment they created
+
 [Link to Notes on Creating User Stories](https://github.com/gokemon/daycare_review/blob/master/my_docs/Notes_on_Writing-User-Stories.md)
 
 

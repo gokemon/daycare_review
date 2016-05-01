@@ -8,6 +8,25 @@ http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/
 
 =================================================
 
+## User Stories
+
+*System*
+
+- Displays main page with features
+
+*Users* should be able to...
+
+- View all providers
+- View a selected providers detail page with its associated comments
+- Sign up
+- Sign in
+- Add a new comment to a selected providers detail page
+- Edit an existing comment they created
+- Delete an existing comment they created
+
+
+=================================================
+
 **VERBS & NOUNS** part
 
 [http://www.allaboutagile.com/user-story-example/](http://www.allaboutagile.com/user-story-example/)
