@@ -153,7 +153,7 @@ Other gems used:
 [Link to Goals
 ](https://github.com/gokemon/daycare_review/blob/master/my_docs/goals.md#things-to-do)
 
-![](daycare_review/my_docs/visual_assets/WeCare sample enhanced profile.png)
+![](https://raw.githubusercontent.com/gokemon/daycare_review/master/my_docs/visual_assets/home.png)
 
 ## Authors
 
