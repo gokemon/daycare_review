@@ -97,6 +97,8 @@ Explain how to run the automated tests for this system
 I did not create any tests, but an including a link to the full spec docs on this project
 [https://github.com/gokemon/daycare_review/blob/master/doc/app/index.html](https://github.com/gokemon/daycare_review/blob/master/doc/app/index.html)
 
+I am looking forward to learning more about Rails testing.
+
 
 
 ### Design Ideas
